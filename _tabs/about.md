@@ -19,6 +19,7 @@ Hey there! I'm **Pranto Kumar Shil**, known online as **pran0x** — a passionat
   - Web exploitation (SSTI, XSS, SQLi, etc.)
   - Network enumeration & privilege escalation
   - Python scripting, Docker setups, and infrastructure tools like NGINX.
+
 ---
 
 ## Goals
