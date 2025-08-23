@@ -1,15 +1,14 @@
 # Template
 Template.md
+#vscode
+
+/.vscode/*
+/.vscode/
 
 # DevContainer (ignore the entire devcontainer directory)
 /.devcontainer/
 /.devcontainer/*
 devcontainer.json
-
-# Tools (ignore the tools directory)
-/tools/
-/tools/*
-
 # Bundler cache
 .bundle
 vendor
