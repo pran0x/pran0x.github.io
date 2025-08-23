@@ -16,7 +16,7 @@ description: Play this short game to get familiar with terminal.
 
 ### First copy the nc ( netcat ) script and paste it to the terminal, follow the instruction:
 
-1\. click on Create an Account
+1\. Start the Challenge
 
 2\. Click on play game rather then click on <ins>show me the real flag!!</ins>
 
@@ -30,3 +30,5 @@ description: Play this short game to get familiar with terminal.
 `winners.`  
 `4. picoCTF{m1113n1um_3d1710n_e41acbee} is a real flag! Submit it for some`  
 `points in picoCTF 2025!`
+
+info: This is a simulated environment for educational purposes only. No real credentials are required
