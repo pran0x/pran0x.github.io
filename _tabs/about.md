@@ -4,10 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# pran0x — Pranto Kumar Shil
+# pran0x - Pranto
 
-Hey there! I'm **Pranto Kumar Shil**, known online as **pran0x** — a passionate Cyber Security student, aspiring penetration tester. I thrive at the intersection of curiosity, community, and technical precision.
-> [See Resume]()
+Hey there! I'm **Pranto**, known online as **pran0x** — a passionate Cyber Security student, aspiring penetration tester. I thrive at the intersection of curiosity, community, and technical precision.
+> See Resume
 
 ---
 
