@@ -31,4 +31,5 @@ description: Play this short game to get familiar with terminal.
 `4. picoCTF{m1113n1um_3d1710n_e41acbee} is a real flag! Submit it for some`  
 `points in picoCTF 2025!`
 
-info: This is a simulated environment for educational purposes only. No real credentials are required
+> This is a simulated environment for educational purposes only. No real credentials are required
+{: .prompt-info }
