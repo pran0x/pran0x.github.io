@@ -6,10 +6,6 @@ tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: Play this short game to get familiar with terminal.
 ---
 
-[Fantasy-CTF Challenge](https://play.picoctf.org/practice/challenge/471?category=5&difficulty=1&page=1)
-
----
-
 ### Getting Started
 
 First, copy the `nc` (netcat) script and paste it into your terminal. Then follow the instructions:
