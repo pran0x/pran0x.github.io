@@ -1,0 +1,45 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Cache Ruby gems
+      uses: actions/cache@v4
+      with:
+        path: .bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+
+    - name: Build the site in the jekyll/builder container (optimized)
+      run: |
+        # Ensure workspace directories exist for bind mounts
+        mkdir -p "$GITHUB_WORKSPACE/_site" "$GITHUB_WORKSPACE/.bundle"
+
+        # Run the builder image with safer defaults:
+        # - --rm to clean up container
+        # - --pull=always to get latest image
+        # - mount .bundle so gems are cached between runs
+        # - set workdir and run as current user to avoid permission issues
+        docker run --rm --pull=always \
+          -v "${{ github.workspace }}:/srv/jekyll" \
+          -v "${{ github.workspace }}/_site:/srv/jekyll/_site" \
+          -v "${{ github.workspace }}/.bundle:/usr/local/bundle" \
+          -w /srv/jekyll \
+          --user "$(id -u):$(id -g)" \
+          jekyll/builder:latest \
+          /bin/bash -lc "set -euo pipefail; chmod -R a+rw /srv/jekyll || true; \
+            if ! bundle check >/dev/null 2>&1; then \
+              bundle config set --local path '/usr/local/bundle' && bundle install --jobs 4 --retry 3; \
+            fi; \
+            JEKYLL_ENV=production bundle exec jekyll build --future"
