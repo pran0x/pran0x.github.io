@@ -6,7 +6,7 @@ tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: What was I last working on? I remember writing a note to help me remember...
 media_subpath: /images/picoCTF/
 image:
-  path: picoctf.png
+  path: /images/picoCTF/picoctf.png 
 ---
 
  ### Gettinng Start

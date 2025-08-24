@@ -6,7 +6,7 @@ tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: Have you heard of Rust? Fix the syntax errors in this Rust file to print the flag!
 media_subpath: /images/picoCTF/
 image:
-  path: picoctf.png
+  path: /images/picoCTF/picoctf.png 
 ---
 
 ### Getting Started

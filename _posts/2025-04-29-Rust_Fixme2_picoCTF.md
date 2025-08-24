@@ -6,7 +6,7 @@ tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: The Rust saga continues? I ask you, can I borrow that, pleeeeeaaaasseeeee?
 media_subpath: /images/picoCTF/
 image:
-  path: picoctf.png
+  path: /images/picoCTF/picoctf.png 
 ---
 
 ### Reference

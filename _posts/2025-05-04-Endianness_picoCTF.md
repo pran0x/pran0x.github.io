@@ -6,7 +6,7 @@ tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: Know of little and big endian?
 media_subpath: /images/picoCTF/
 image:
-  path: picoctf.png
+  path: /images/picoCTF/picoctf.png 
 ---
 
 ### Getting Start
