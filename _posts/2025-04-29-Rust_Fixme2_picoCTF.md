@@ -11,7 +11,7 @@ image:
 
 ### Reference: 
 
-same as [Rust_Fixme3](/_posts/2025-04-28-Rust_Fixme3_picoCTF.md) Here we just need to  find out the pass by reference was currently referenced or not! that's it...
+same as [Rust_Fixme3](/posts/Rust_Fixme3_picoCTF/) Here we just need to  find out the pass by reference was currently referenced or not! that's it...
 
 Need solve!? Here it is: 
 
