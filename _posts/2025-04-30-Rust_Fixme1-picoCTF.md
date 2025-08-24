@@ -4,7 +4,7 @@ date: 2025-04-30 07:32:42 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: Have you heard of Rust? Fix the syntax errors in this Rust file to print the flag!
-media_subpath: /images/picoCTF/
+media_subpath: /assets/img/picoctf/
 image:
   path: picoctf.png
 ---

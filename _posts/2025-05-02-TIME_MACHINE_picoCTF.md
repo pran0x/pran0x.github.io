@@ -4,7 +4,7 @@ date: 2025-05-02 09:38:32 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: What was I last working on? I remember writing a note to help me remember...
-media_subpath: /images/picoCTF/
+media_subpath: /assets/img/picoctf/
 image:
   path: picoctf.png
 ---

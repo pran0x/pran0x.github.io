@@ -4,7 +4,7 @@ date: 2025-05-05 11:50:16 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: My team has been working very hard on new features for our flag printing program! I wonder how they'll work together?
-media_subpath: /images/picoCTF/
+media_subpath: /assets/img/picoctf/
 image:
   path: picoctf.png
 ---

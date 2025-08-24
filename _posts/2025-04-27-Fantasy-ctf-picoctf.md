@@ -4,7 +4,7 @@ date: 2025-04-27 10:40:30 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: Play this short game to get familiar with terminal.
-media_subpath: /images/picoCTF/
+media_subpath: /assets/img/picoctf/
 image:
   path: picoctf.png
 ---

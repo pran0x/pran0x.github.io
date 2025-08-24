@@ -4,7 +4,7 @@ date: 2025-05-04 05:40:56 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: Know of little and big endian?
-media_subpath: /images/picoCTF/
+media_subpath: /assets/img/picoctf/
 image:
   path: picoctf.png
 ---
