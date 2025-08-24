@@ -9,16 +9,14 @@ image:
   path: picoctf.png
 ---
 
-### Reference: 
+### Reference
 
 same as [Rust_Fixme3](/posts/Rust_Fixme3_picoCTF/) Here we just need to  find out the pass by reference was currently referenced or not! that's it...
 
-Need solve!? Here it is: 
+Need solve!? Here it is:
 
-### Getting Start:
+### Getting Start
 
-First do same as Rust-fixme3 . then open the ``main.rs`` file and look at the string ref as &string . here just add &mut after the string as shows &mut string . then go to end of the code as line 34 . Here look string is without mut(mutable) reference . add &mut string   . Done 
+First do same as Rust-fixme3 . then open the ``main.rs`` file and look at the string ref as &string . here just add &mut after the string as shows &mut string . then go to end of the code as line 34 . Here look string is without mut(mutable) reference . add &mut string   . Done
 
 Now run the file and you got it....
-
-
