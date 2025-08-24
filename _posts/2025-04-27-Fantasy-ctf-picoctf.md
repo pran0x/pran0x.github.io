@@ -6,7 +6,7 @@ tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: Play this short game to get familiar with terminal.
 media_subpath: /images/picoCTF/
 image:
-  path: /images/picoCTF/picoctf.png 
+  path: picoctf.png
 ---
 
 ### Getting Started

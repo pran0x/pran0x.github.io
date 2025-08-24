@@ -6,7 +6,7 @@ tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: I accidentally wrote the flag down. Good thing I deleted it!
 media_subpath: /images/picoCTF/
 image:
-  path: /images/picoCTF/picoctf.png 
+  path: picoctf.png
 ---
 
 ### Getting Start:

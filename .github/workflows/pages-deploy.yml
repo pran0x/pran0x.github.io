@@ -42,6 +42,15 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
+      - name: Normalize image paths
+        run: |
+          echo "Normalizing post front-matter image.path entries..."
+          # If posts use `media_subpath: /images/picoCTF/` together with an absolute
+          # `image.path: /images/picoCTF/picoctf.png` it produces duplicated paths
+          # in the generated site. Strip the leading folder from image.path when
+          # it's present so the theme can combine media_subpath + image.path.
+          find _posts -type f -name '*.md' -print0 | xargs -0 sed -i "s|^\([[:space:]]*path:[[:space:]]*\)/images/picoCTF/\([^[:space:]]*\)$|\1\2|"
+
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:

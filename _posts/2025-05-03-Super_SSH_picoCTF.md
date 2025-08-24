@@ -6,7 +6,7 @@ tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: Using a Secure Shell (SSH) is going to be pretty important.
 media_subpath: /images/picoCTF/
 image:
-  path: /images/picoCTF/picoctf.png 
+  path: picoctf.png
 ---
 
 ### launch the instance and you just need to follow the instruction

@@ -6,7 +6,7 @@ tags: [pico-ctf, easy, general] # TAG names should always be lowercase
 description: Want to play a game? As you use more of the shell, you might be interested in how they work!
 media_subpath: /images/picoCTF/
 image:
-  path: /images/picoCTF/picoctf.png 
+  path: picoctf.png
 ---
 
 ### Getting Start
