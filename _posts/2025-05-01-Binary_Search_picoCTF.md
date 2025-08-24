@@ -9,10 +9,7 @@ image:
   path: picoctf.png 
 ---
 
-### Getting Start:
+### Getting Start
 
-you don't need to download or unzip the file. just launch the instance and copy the below ssh line and paste it to the shell. password are also given below . 
-Try the game to yourself, Remember one thing you can only try 10 times at a time, then it reset/connection lost.
-
-Good LUCK!!
+you don't need to download or unzip the file. just launch the instance and copy the below ssh line and paste it to the shell. password are also given below.Try the game to yourself, Remember one thing you can only try 10 times at a time, then it reset/connection lost. Good Luck!
 

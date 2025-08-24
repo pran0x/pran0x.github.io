@@ -9,13 +9,11 @@ image:
   path: picoctf.png
 ---
 
- ### Gettinng Start:
+ ### Gettinng Start
  
 Get the file into you machine. Incase you don't know then here it is: 
 
 wget //copy the zip through right click on the file and copy the file, paste it  there..
 
-After unzip it and  check the massage and find the file, by typing ls -la . you will get a hidden file named ./git .
-Goto the file and open the COMMIT massage . here it's flag..
-
+After unzip it and  check the massage and find the file, by typing ls -la . you will get a hidden file named ./git. Goto the file and open the COMMIT massage . here it's flag..
 

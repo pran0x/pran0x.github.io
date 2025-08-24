@@ -22,7 +22,6 @@ First, copy the `nc` (netcat) script and paste it into your terminal. Then follo
 
 Continue playing through the simulation. After a short sequence, the terminal will display a message like:
 
-
 ```
 END OF FANTASY CTF SIMULATION Thank you for playing! To reemphasize some rules for this year:
 

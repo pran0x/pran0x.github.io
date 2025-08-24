@@ -9,7 +9,7 @@ image:
   path: picoctf.png
 ---
 
-### Getting Start:
+### Getting Start
 
 Here 3 branches in a working process without main branch, so our job is to do merge all  the branches to the main branch and print out the flag.py file.
 
