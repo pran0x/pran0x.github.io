@@ -9,7 +9,8 @@ image:
   path: md2pdf/image.png
   
 ---
-![Tryhackme Room Link](md2pdf/file.png)
+
+![Tryhackme Room Link](md2pdf/room.png)
 _<https://tryhackme.com/room/md2pdf>_
 
 ### Reconaissance
