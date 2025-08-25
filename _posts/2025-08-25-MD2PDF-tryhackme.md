@@ -14,7 +14,7 @@ _<https://tryhackme.com/room/md2pdf>_
 ### Reconaissance
 Fist recon the website and look which ports are open 
 I can see  there are three open ports :
-![recon](/assets/img/tryhackme/md2pdf/recon.png)
+![recon](md2pdf/recon.png)
 
 Checks every ports and we can see in `port:5000` it looks like both `port:80` and `port:5000` are same.
 
@@ -22,9 +22,9 @@ Checks every ports and we can see in `port:5000` it looks like both `port:80` an
 ### Directory Fuzzing
 
 Lets `fuzz` the website.
-![dirbuster](/assets/img/tryhackme/md2pdf/dirbus.png)
+![dirbuster](md2pdf/dirbus.png)
 Looks like we got some hidden info. let's access it. it says: `only localhost can access it`
-![admin portal](/assets/img/tryhackme/md2pdf/admin.png)
+![admin portal](md2pdf/admin.png)
 
 ### Verdict
 so we can't access the localhost. let's try some other way.
@@ -33,8 +33,8 @@ So, basically i need to do [`SSRF`](https://www.intigriti.com/researchers/blog/h
 
 ### Approch
 I have tried some basic way like `img` tag but failed then tried `xss` with `javascript` but could works. Finally tried the `<iframe>` tag and it's worked.
-![injection](/assets/img/tryhackme/md2pdf/injection.png)
-![flag](/assets/img/tryhackme/md2pdf/flag.png)
+![injection](md2pdf/injection.png)
+![flag](md2pdf/flag.png)
 
 
 ### Conclusion
