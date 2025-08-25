@@ -17,9 +17,13 @@ _<https://tryhackme.com/room/compiled>_
 We have given the `Downloadable` file. let's open and observe it.
 this is an compailer file with unreadable `texts`.
 After run the compailer it's asking for the password:
+
 ![task](Compiler/task.png)
+
 we don't know the password let's try to understand the file by using `cat` 
+
 ![logic](Compiler/logic.png)
+
 We have got a logic. 
 
 ### Logic
@@ -28,14 +32,16 @@ So, basically we need to enter the  password  with this keyphrase `DoYouEven(som
 Here i used [`ghidra`](https://dogbolt.org/) to Debug  the code. 
 Close looks, we got and hint i guess.
 look at the `logic part`
+
 ![clue](Compiler/clue.png)
+
 We have got it. if the given password is == `DoYouEven__init` then the password is correct. if isn't then it will show `Try_again`
 
 Let's try it.
+
 ![flag](Compiler/flag.png)
+
 We have got the flag/answer.
 
-
-### Vardict 
- the ans are alsow shown in the file when we opened it. 
+### Vardict  the ans are alsow shown in the file when we opened it. 
 ![vardict](Compiler/vardict.png)
