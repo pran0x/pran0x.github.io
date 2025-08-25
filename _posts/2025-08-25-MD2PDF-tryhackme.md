@@ -1,5 +1,5 @@
 ---
-title: TryHackMe: MD2PDF
+title: TryHackMe - MD2PDF
 date: 2025-08-25 1:10:01 +0600
 categories: [Try Hack Me, easy]
 tags: [tryhackme, web, linux] # TAG names should always be lowercase
