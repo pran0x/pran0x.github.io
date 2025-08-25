@@ -36,3 +36,4 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+.github/workflows/jekyll-docker.yml

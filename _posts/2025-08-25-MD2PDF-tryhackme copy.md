@@ -33,7 +33,7 @@ so we can't access the localhost. let's try some other way.
 After some research, I have found and artical [`Here`](https://www.intigriti.com/researchers/blog/hacking-tools/exploiting-pdf-generators-a-complete-guide-to-finding-ssrf-vulnerabilities-in-pdf-generators#what-are-pdf-generators)
 So, basically i need to do [`SSRF`](https://www.intigriti.com/researchers/blog/hacking-tools/ssrf-a-complete-guide-to-exploiting-advanced-ssrf-vulnerabilities).
 
-### Approch
+### Approach
 I have tried some basic way like `img` tag but failed then tried `xss` with `javascript` but could works. Finally tried the `<iframe>` tag and it's worked.
 ![injection](md2pdf/injection.png)
 ![flag](md2pdf/flag.png)
