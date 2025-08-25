@@ -10,7 +10,7 @@ image:
   
 ---
 
-![Tryhackme Room Link](md2pdf/room.png){: width="600" height="150" .shadow }
+![Tryhackme Room Link](md2pdf/room.png)
 _<https://tryhackme.com/room/md2pdf>_
 
 ### Reconaissance
