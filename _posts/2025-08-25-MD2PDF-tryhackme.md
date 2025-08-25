@@ -9,7 +9,7 @@ image:
   path: md2pdf/image.png
   
 ---
-![Tryhackme Room Link](md2pdf/file.png){: width="600" height="150" .shadow }
+![Tryhackme Room Link](md2pdf/file.png)
 _<https://tryhackme.com/room/md2pdf>_
 
 ### Reconaissance
