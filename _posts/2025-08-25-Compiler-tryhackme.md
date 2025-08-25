@@ -45,5 +45,5 @@ We have got the flag/answer.
 
 ### Vardict  
 
-The ans are alsow shown in the file when we opened it. 
+The ans are also shown in the file when we opened it. 
 ![vardict](Compiler/vardict.png)
