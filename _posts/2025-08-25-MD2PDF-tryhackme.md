@@ -6,11 +6,11 @@ tags: [tryhackme, web, linux] # TAG names should always be lowercase
 description: Hello Hacker!TopTierConversions LTD is proud to announce its latest and greatest product launch 'MD2PDF'. This easy-to-use utility converts markdown files to PDF and is totally secure! Right...?
 media_subpath: /assets/img/tryhackme/
 image:
-  path: md2pdf/image.png
+  path: md2pdf/main.webp
   
 ---
 
-![Tryhackme Room Link](md2pdf/room.png)
+![Tryhackme Room Link](md2pdf/room.png){: width="600" height="150" .shadow }
 _<https://tryhackme.com/room/md2pdf>_
 
 ### Reconaissance
