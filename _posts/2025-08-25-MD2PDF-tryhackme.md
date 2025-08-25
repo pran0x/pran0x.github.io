@@ -18,6 +18,7 @@ I can see  there are three open ports :
 
 Checks every ports and we can see in `port:5000` it looks like both `port:80` and `port:5000` are same.
 
+
 ### Directory Fuzzing
 
 Lets `fuzz` the website.
