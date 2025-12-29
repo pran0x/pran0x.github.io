@@ -19,7 +19,7 @@ My current focus is on becoming skilled in penetration testing and ethical hacki
 
 Although my journey is just beginning, I’m excited to connect with like-minded professionals, share insights, and grow in this dynamic and challenging industry. Eager to continuously learn and improve, I’m determined to contribute to the Cyber Security community and make a meaningful impact.
 
-- <b> As a Cyber Security student with a deep interest in </b>
+- <b> As a Cyber Security student with a deep interest as </b>
   
   - Offensive Security Researcher 
   - Aspiring Pentration Tester  
