@@ -1,5 +1,5 @@
 ---
-title: Rust Fixme 2
+title: Pico CTF - Rust Fixme 2
 date: 2025-04-29 2:22:17 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase

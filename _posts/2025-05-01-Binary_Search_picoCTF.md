@@ -1,5 +1,5 @@
 ---
-title: Binary Search
+title: Pico CTF - Binary Search
 date: 2025-05-01 03:02:21 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase

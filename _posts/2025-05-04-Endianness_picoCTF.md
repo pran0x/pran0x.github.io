@@ -1,5 +1,5 @@
 ---
-title: Endianness 
+title: Pico CTF - Endianness 
 date: 2025-05-04 05:40:56 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase

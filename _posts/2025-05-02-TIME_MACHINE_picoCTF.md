@@ -1,5 +1,5 @@
 ---
-title: TIME MACHINE
+title: Pico CTF - TIME MACHINE
 date: 2025-05-02 09:38:32 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase

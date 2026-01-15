@@ -1,5 +1,5 @@
 ---
-title: Super SSH
+title: Pico CTF - Super SSH
 date: 2025-04-27 10:40:30 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase

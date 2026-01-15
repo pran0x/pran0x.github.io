@@ -1,5 +1,5 @@
 ---
-title: Commitment issue
+title: Pico CTF - Commitment issue
 date: 2025-05-05 11:50:16 +0600
 categories: [Pico-CTF, General]
 tags: [pico-ctf, easy, general] # TAG names should always be lowercase
