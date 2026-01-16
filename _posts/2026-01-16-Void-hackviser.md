@@ -1,6 +1,6 @@
 ---
 title: Hackviser - Void
-date: 2026-01-15 10:30:00 +0600
+date: 2026-01-16 22:15:00 +0600
 categories: [Hackviser, Scenarios]
 tags: [hackviser, web, linux, privilege, system, exploit] # TAG names should always be lowercase
 description: According to our security analysts' reports, our critical systems have been subjected to scans from a suspicious IP address for some time. Your mission is to identify the owner of this IP address and the associated server, and to uncover what the attackers are doing. Good luck!Recent work by our team has revealed that a group called 'Cipher Storm' has been developing and selling ransomware and has seen a recent increase in activity. We know that this group writes and sells malware used in many ransomware attacks. To stop the group's activities, we need to reach the people behind it. The first step is to start analyzing the team's website. Good luck with your mission!

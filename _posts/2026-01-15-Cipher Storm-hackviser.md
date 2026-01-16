@@ -15,7 +15,8 @@ _<https://app.hackviser.com/scenarios/cipher-storm>_
 
 ### Reconnaissance
 
-#### Qus : 1
+### Task : 1
+#### What is the Telegram address used to communicate with the ransomware team?
 
 First, we recon the website and found the `telegram link`
 
@@ -38,7 +39,8 @@ So, we're looking for its vulnerable CVE. We found CVE `CVE-2021-42013` for it: 
 
 ### Initial Access
 
-#### Qus : 2 & 3
+### Task : 2
+#### What is the full name of the first customer in the customer list?
 
 We use `metasploit/msfconsole` for exploitation.
 
@@ -70,18 +72,20 @@ Convert the `basic shell` to `interactive shell`
 
 Check to `home/black` for `sales.txt` file for solve 
 
-#### qus : 2
+
 
 ![sales check](cipher-storm/shell-3.png)
 
-#### qus : 3
+### Task : 3
+#### What is the 'IP:username:password' for the C2 server of customer 'Amelia Allen'?
 
 ![sales check 2](cipher-storm/shell-4.png)
 
 
 ### Privilege Escalation
 
-#### qus : 4 
+### Task : 4
+#### What is the 'Key' in the source code file of the ransomware the team developed?
 
 After exploitation, we'll check for `SUID` binaries:
 
@@ -98,9 +102,6 @@ We directly paste the exploitable scripts and check the `/tmp` folder to find `r
 ![Escalate to root](cipher-storm/normal-to-root.png)
 
 Now we go to the `/root` folder and check the `Dev` and `Document` folder.
-
-### Flag Discovery
-
 For view the data of `/root` folder we use `python server`.In server terminal
 
 ```bash
@@ -116,3 +117,5 @@ Now check the `dev/ransomware.java` for the key:
 
 ![key](cipher-storm/key.png)
 
+### Task : 5
+#### What is the name of one of the members of the ransomware team?
